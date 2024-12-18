@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestClasses.Test_CarsHome">
+        <methods>
+          <include name="goToCarsHomePage"/>
+          <include name="goToNewCars"/>
+          <include name="tearDow"/>
+        </methods>
+      </class> <!-- TestClasses.Test_CarsHome -->
+      <class name="TestClasses.Test_NewCars">
+        <methods>
+          <include name="tearDow"/>
+          <include name="verfyThatUserShouldBeAbleToNavigateToBMWCarPage"/>
+          <include name="lauctTheBrowser"/>
+        </methods>
+      </class> <!-- TestClasses.Test_NewCars -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
